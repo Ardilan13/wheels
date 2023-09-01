@@ -1,32 +1,32 @@
-var MaquinaDeCafe = /** @class */ (function () {
-    function MaquinaDeCafe() {
+"use strict";
+class MaquinaDeCafe {
+    constructor() {
         this.unidadesDeVenta = 0;
         this.dineroRecibido = 0;
         this.nivel = 100;
         this.saldo = 20000;
         this.valorOnza = 100;
     }
-    MaquinaDeCafe.prototype.calcularPrecio = function () {
+    calcularPrecio() {
         return this.unidadesDeVenta * this.valorOnza;
-    };
-    MaquinaDeCafe.prototype.entregarCafe = function () {
+    }
+    entregarCafe() {
         this.nivel -= this.unidadesDeVenta;
         this.saldo += this.calcularPrecio();
         this.unidadesDeVenta = 0;
         this.dineroRecibido = 0;
-    };
-    MaquinaDeCafe.prototype.calcularCambio = function () {
+    }
+    calcularCambio() {
         return this.dineroRecibido - this.calcularPrecio();
-    };
-    MaquinaDeCafe.prototype.recibirCantidadOnzas = function (unidades) {
+    }
+    recibirCantidadOnzas(unidades) {
         this.unidadesDeVenta = unidades;
-    };
-    MaquinaDeCafe.prototype.recibirDinero = function (dinero) {
+    }
+    recibirDinero(dinero) {
         this.dineroRecibido = dinero;
-    };
-    return MaquinaDeCafe;
-}());
-var maquina = new MaquinaDeCafe();
+    }
+}
+const maquina = new MaquinaDeCafe();
 maquina.recibirCantidadOnzas(5);
 console.log("Precio a pagar:", maquina.calcularPrecio());
 maquina.recibirDinero(600);

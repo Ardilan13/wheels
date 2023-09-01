@@ -1,4 +1,4 @@
-import { Usuario, Vehiculo, Ruta } from "./classes";
+import { Usuario, Vehiculo, Ruta } from "./clases/Classes";
 
 const usuario1 = new Usuario(1, "Carlos", "Conductor");
 const vehiculo1 = new Vehiculo(5, "Carro", "ABC123", "Azul", "2021");
