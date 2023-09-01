@@ -7,6 +7,7 @@ const Carro_1 = __importDefault(require("./clases/Carro"));
 const main = () => {
     const carro = new Carro_1.default("Toyota", 2006);
     const carro1 = new Carro_1.default("Mercedes", 2020, 255, 0, 180);
-    console.log(carro, carro1);
+    const carro2 = new Carro_1.default("Chevrolet", 2016, 255, 0, 180, 23, "Bucaramanga");
+    console.log(carro, carro1, carro2);
 };
 main();
