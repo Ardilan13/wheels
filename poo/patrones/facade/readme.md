@@ -1,0 +1,2 @@
+El patrón Facade se utiliza para proporcionar una interfaz simplificada a un conjunto más grande de interfaces en un subsistema. Facade oculta la complejidad del sistema y proporciona una interfaz única y fácil de usar.
+Supongamos que estamos creando un sistema de compras en línea que involucra múltiples subsistemas, como el manejo de inventario, la gestión de pedidos y el procesamiento de pagos. Queremos simplificar la interacción para los clientes y proporcionar una interfaz única para realizar compras en línea.

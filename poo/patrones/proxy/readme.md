@@ -1,0 +1,3 @@
+El patrón Proxy se utiliza para controlar el acceso a un objeto proporcionando un sustituto o intermediario. En este ejemplo, consideraremos un escenario donde se accede a archivos remotos a través de un proxy para gestionar la autenticación y el control de acceso.
+
+Este ejemplo demuestra cómo el patrón Proxy se puede utilizar para controlar el acceso y la autenticación a objetos remotos, proporcionando una capa adicional de seguridad y control.

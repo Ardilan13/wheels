@@ -1,0 +1,1 @@
+El patrón Flyweight se utiliza para minimizar el uso de memoria o costos computacionales al compartir lo máximo posible con objetos relacionados. En este ejemplo, consideraremos un escenario en un editor gráfico donde se utilizan varios iconos similares en diferentes ubicaciones.
