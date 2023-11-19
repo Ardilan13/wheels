@@ -1,0 +1,1 @@
+El patrón Mediator se utiliza para facilitar la comunicación y la interacción entre múltiples objetos de un sistema, sin que estos objetos estén directamente acoplados entre sí. En lugar de que cada objeto se comunique directamente con otros, todos los mensajes pasan a través de un mediador central.

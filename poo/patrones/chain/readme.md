@@ -1,0 +1,1 @@
+El patrón Chain of Responsibility (cadena de responsabilidad) es un patrón de diseño de comportamiento que permite construir una cadena de objetos receptores que procesan una solicitud de manera secuencial. Cada objeto en la cadena tiene la capacidad de procesar la solicitud o pasarla al siguiente objeto en la cadena.

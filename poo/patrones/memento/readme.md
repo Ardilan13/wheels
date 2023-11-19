@@ -1,0 +1,1 @@
+El patrón Memento se utiliza para capturar el estado interno de un objeto en un determinado momento y luego poder restaurar ese estado en el futuro sin romper la encapsulación. Es útil cuando se necesita implementar funciones de "deshacer" (undo) o "rehacer" (redo) en una aplicación.
