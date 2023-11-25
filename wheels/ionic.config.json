@@ -1,0 +1,7 @@
+{
+  "name": "wheels",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

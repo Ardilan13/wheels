@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const editorial_1 = require("./clases/editorial");
+const suscriptor_1 = require("./clases/suscriptor");
+const editorial = new editorial_1.Editorial();
+const suscriptor1 = new suscriptor_1.Suscriptor("Carlos");
+const suscriptor2 = new suscriptor_1.Suscriptor("Ana");
+editorial.registrarObservador(suscriptor1);
+editorial.registrarObservador(suscriptor2);
+editorial.publicarNoticia("Nuevo artículo publicado");

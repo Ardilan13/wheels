@@ -1,0 +1,1 @@
+El patrón State se utiliza para permitir que un objeto modifique su comportamiento cuando su estado interno cambia. Permite representar cada estado posible de un objeto como una clase separada y delegar las responsabilidades asociadas a ese estado a objetos separados.
